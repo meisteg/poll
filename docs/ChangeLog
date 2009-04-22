@@ -1,0 +1,25 @@
+# ChangeLog for Poll
+# $Id: ChangeLog,v 1.10 2008/07/12 02:45:17 blindman1344 Exp $
+
+
+*poll-1.1.1 (11 Jul 2008)
+
+    RFE #1897854: Now using mod_rewrite for poll results page.
+    Added calls to cacheQueries and addSortHeader when using DBPager.
+    Saving a poll now sets the manage tab correctly.
+    Removed calls to help module which weren't working anyway.
+    Corrected a few phrases that were not being translated.
+
+*poll-1.1.0 (14 Oct 2007)
+
+    Fixed defect which prevented all users from voting.
+    Fixed case where a poll could be saved and only have one option.
+    Fixed case where edit link would appear when user didn't have permission.
+    Reduced the code complexity of several functions.
+    Now using the new logIfError() function in the core.
+    Updated to new translation functions introduced in phpWebSite 1.2.0.
+    Cleaned up look of about file.
+
+*poll-1.0.0 (25 Feb 2007)
+
+    Initial release.
