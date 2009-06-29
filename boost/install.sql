@@ -1,5 +1,3 @@
--- $Id: install.sql,v 1.1 2007/02/20 05:09:35 blindman1344 Exp $
-
 CREATE TABLE poll (
 id INT NOT NULL,
 key_id INT DEFAULT '0' NOT NULL,

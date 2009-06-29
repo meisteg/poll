@@ -1,6 +1,8 @@
-# ChangeLog for Poll
-# $Id: ChangeLog,v 1.10 2008/07/12 02:45:17 blindman1344 Exp $
+Change Log for Poll
+===============================================================================
 
+
+    RFE #4: Replace references to SourceForge with GitHub.
 
 *poll-1.1.1 (11 Jul 2008)
 

@@ -1,8 +1,6 @@
 <?php
 /**
- * Poll
- *
- * See docs/CREDITS for copyright information
+ * Copyright (c) 2007-2009 Gregory Meiste
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,8 +16,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * @author Greg Meiste <blindman1344 at users dot sourceforge dot net>
- * @version $Id: update.php,v 1.4 2008/07/12 02:45:14 blindman1344 Exp $
+ * @package Poll
+ * @author Greg Meiste <greg.meiste+github@gmail.com>
  */
 
 function poll_update(&$content, $currentVersion)
